@@ -1,4 +1,4 @@
-resource "google_compute_firewall" "allow_http" {
+resource "google_compute_firewall" "allow-http" {
     name = "allow-http"
     network = "default"
 
@@ -11,7 +11,7 @@ resource "google_compute_firewall" "allow_http" {
 
 }
 
-resource "google_compute_firewall" "allow_https" {
+resource "google_compute_firewall" "allow-https" {
     name = "allow-https"
     network = "default"
 
